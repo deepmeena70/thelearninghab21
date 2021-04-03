@@ -138,8 +138,8 @@ header {
   display: -ms-grid;
   display: grid;
   padding: 12px;
-  -ms-grid-columns: (minmax(14rem, 16rem))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(14rem, 16rem));
+  -ms-grid-columns: (minmax(14rem, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
 }
 
 .post-card {

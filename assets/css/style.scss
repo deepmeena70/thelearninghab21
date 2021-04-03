@@ -126,7 +126,7 @@ header {
 .posts {
     display: grid;
     padding: 12px;
-    grid-template-columns: repeat(auto-fit, minmax(14rem, 16rem));
+    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
 }
 
 .post-card {
