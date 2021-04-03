@@ -1,0 +1,56 @@
+    @import "variables";
+    header {
+        background-color: $space;
+    }
+    
+    .container {
+        grid-template: "h h" "c r" "lm r" "f f";
+        grid-template-columns: 6fr 1fr;
+    }
+    
+    header {
+        padding-left: 24px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    
+    #logo {
+        display: inline-block;
+        img {
+            width: 100%;
+        }
+        width: 160px;
+        margin-top: 8px;
+    }
+    
+    #menu-toggle-icon {
+        display: inline;
+        float: right;
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        box-shadow: 0 0 3px $dogwood;
+        margin-right: 24px;
+        padding-top: 2px;
+        padding: 3.4px;
+    }
+    
+    #menu-toggle-icon:focus {
+        outline: none;
+    }
+    
+    .left-side {
+        position: fixed;
+        display: none;
+        width: 200px;
+        height: 100vh;
+        z-index: 99;
+    }
+    
+    #brand-logo {
+        img {
+            width: 130px;
+        }
+        position: fixed;
+        top:4.5vh;
+    }

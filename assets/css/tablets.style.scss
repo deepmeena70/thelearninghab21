@@ -1,0 +1,14 @@
+@import "variables";
+.container {
+    grid-template: "h h h" "c c c" "lm lm lm" "r r r" "f f f";
+}
+
+.right-side {
+    padding: 24px;
+}
+
+.post-page {
+    .thumbnail {
+        height: 300px;
+    }
+}

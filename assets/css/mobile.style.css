@@ -1,0 +1,33 @@
+.read-more,
+.share {
+  position: relative;
+  bottom: 30px;
+}
+
+.read-more {
+  margin-left: 44%;
+  padding-left: 9px !important;
+}
+
+.share {
+  margin-left: 56%;
+}
+
+.post-page {
+  margin: 12px 24px 0 24px;
+}
+
+.post-page .thumbnail {
+  height: 200px;
+}
+
+.comment {
+  margin-left: 0;
+}
+
+.reply-form,
+.comment-form {
+  width: 100%;
+  margin-left: 0;
+}
+/*# sourceMappingURL=mobile.style.css.map */
